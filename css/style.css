@@ -6,13 +6,32 @@ body{
 
 .main{
     margin: auto;
-    width: 500px;
+    width: 50%;
     height: auto;
-    background-color: rgb(48, 6, 116, 0.9);
+    background-color: rgb(48, 6, 116, 0.8);
     color: aliceblue;
     padding: 10px;
     display: block;
+    border-radius: 0.25rem
 }
 .formulary{
     width: auto;
+    
+}
+#intro{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+input{
+    display: block;
+}
+.textbox{
+    width: 90%;
+    position: relative;
+    align-items: center;
+    
+}
+.checkbox{
+    display: inline;
 }
